@@ -2,4 +2,4 @@
 sudo apt-get -qq update
 sudo apt-get -qq install curl
 
-curl https://get.docker.com/ | /bin/bash
+curl https://get.docker.com/ | sudo /bin/bash
