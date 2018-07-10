@@ -1,5 +1,5 @@
 ethereum-node:
-   image: parity/parity:stable-release
+   image: parity/parity:stable
    container_name: parity
    command: --jsonrpc-interface all --ui-interface all --chain dev --ui-hosts=all 
    ports:
